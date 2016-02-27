@@ -1,7 +1,7 @@
 {
   "name": "ares-webos-sdk",
   "main": "./lib/common-tools.js",
-  "version": "1.5.0-j896-k",
+  "version": "3.0.0",
   "bin": {
     "ares-novacom": "./bin/ares-novacom.js",
     "ares-generate": "./bin/ares-generate.js",
@@ -9,10 +9,11 @@
     "ares-install": "./bin/ares-install.js",
     "ares-launch": "./bin/ares-launch.js",
     "ares-inspect": "./bin/ares-inspect.js",
-    "ares-gdbserver": "./bin/ares-gdbserver.js",
     "ares-setup-device": "./bin/ares-setup-device.js"
   },
   "dependencies": {
+    "archiver": "~0.21.0",
+    "enyo-dev": "~0.5.2",
     "shelljs": ">=0.5.1",
     "request": "2.12.x",
     "async": "~0.2.9",
@@ -59,13 +60,13 @@
     "win32"
   ],
   "devDependencies": {
-    "mocha": "1.8.x",
-    "should": "1.2.x"
+    "mocha": "^1.8.2",
+    "should": "^1.2.2"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha test/*.spec.js",
-    "preinstall": "node ./scripts/sub-npm.js"
+    "test": "node_modules/.bin/mocha test/*.spec.js"
   },
+  "readmeFilename": "README.md",
   "bundledDependencies": [
     "shelljs",
     "request",
