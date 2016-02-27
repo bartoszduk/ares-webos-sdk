@@ -2,6 +2,10 @@
   "name": "ares-webos-sdk",
   "main": "./lib/common-tools.js",
   "version": "3.0.0",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/stevenvong/ares-webos-sdk"
+  },
   "bin": {
     "ares-novacom": "./bin/ares-novacom.js",
     "ares-generate": "./bin/ares-generate.js",
