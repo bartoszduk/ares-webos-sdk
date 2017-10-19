@@ -49,7 +49,7 @@ has been set correctly.
 On Linux and Mac OS X:
 
 	$ export PATH=$PATH:<webos-sdk-commands-full-path>/bin
-	For exanple: export PATH=$PATH:/Users/ares/GIT/ares-webos-sdk/bin
+	For example: export PATH=$PATH:/Users/ares/GIT/ares-webos-sdk/bin
 
 On windows (cmd.exe):
 
