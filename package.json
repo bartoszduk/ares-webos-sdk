@@ -33,7 +33,7 @@
     "ssh2": ">=0.4.8",
     "npmlog": "~0.0.4",
     "nopt": "~2.1.2",
-    "semver": "2.1.0",
+    "semver": "4.3.2",
     "sprintf-js": "~0.0.7",
     "stream-buffers": "0.2.x",
     "express": "~3.3.4",
